@@ -34,7 +34,7 @@ public class IsUnique {
         }
 
         boolean[] arr = new boolean[128];     // size of char in strings
-        for (int i = 0; i < str.length(); i++) { // iterate thru all char
+        for (int i = 0; i < str.length(); i++) { // iterate through all char
             if (!arr[str.charAt(i)]) {           // if this char has not been seen set true
                 arr[str.charAt(i)] = true;
             } else {                             // else this char has been seen
